@@ -95,3 +95,29 @@ body {
     text-align: center;
     margin: auto;  }
 
+#button {
+    text-align: center; 
+    margin: 10px;  }
+
+button {
+    background-color: #1c6623;
+    color: rgb(241, 241, 241);
+    border-radius: 1%;
+    border: transparent;  }
+
+#nutrition {
+    display: none;
+    margin: auto;
+    text-align: center;  }
+
+table {
+    margin: auto;  }
+
+td {
+    text-align: center;
+    width: 65px;
+    box-shadow: 1px 0px 4px #8c8d8c;  }
+
+tr {
+    height: 40px;  }
+
