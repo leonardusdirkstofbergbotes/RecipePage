@@ -121,3 +121,35 @@ td {
 tr {
     height: 40px;  }
 
+#ingredients {
+    display: inline-block;
+    width: 24%;
+    list-style-type: none;
+    line-height: 2;
+    padding: 3px;
+    margin-top: 5px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(85, 84, 84, 0.5);;
+    border-radius: 2%;  }
+
+    #ingredients h2 {
+        margin-bottom: 10px;
+    }
+    
+#ingredients em {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    color: #1c6623;  }
+
+#diff {
+    box-shadow: none;  }
+
+hr {
+    background-color: #1c6623;
+    border: 0 none;
+    height: 5px;
+    width: 92%;
+    border-radius: 25%;
+    margin: 40px;  }
+
