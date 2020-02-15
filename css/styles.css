@@ -177,3 +177,12 @@ hr {
     margin: 5px;
     height: 250px;
     border-radius: 2%;  }
+
+.video { 
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1%;
+    width: 90%;
+    height: 40vw;  }
