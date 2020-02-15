@@ -153,3 +153,27 @@ hr {
     border-radius: 25%;
     margin: 40px;  }
 
+#stepText {
+    width: 94%;
+    margin: auto;  }
+    
+.describe {
+    display: inline-block;
+    margin: auto;
+    width: 23.5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: rgb(93, 93, 93);;
+    font-size: 12.5px;  }
+
+#imageWrapper {
+    width: 94%;
+    margin: auto;  }
+
+#imageWrapper img {
+    display: inline-block;
+    width: 23.5%;
+    margin: 5px;
+    height: 250px;
+    border-radius: 2%;  }
