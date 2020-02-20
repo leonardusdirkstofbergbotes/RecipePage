@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- My own Javascript -->
-    <script src="script/javascript.js"></script>
+    <script src="script/script.js"></script>
 
 </head>
   
@@ -25,7 +25,7 @@
       <nav class="navbar navbar-expand-sm navbar-light navcol">
 
         <!-- My website logo -->
-         <img id="logo" src="images/logo.jpg" alt="Website Logo">
+         <img id="logo" src="images/logo.png" alt="Website Logo">
           <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,12 +33,12 @@
           <div class="collapse navbar-collapse" id="collapsibleNavId">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                      <a class="nav-link title titleOver">Spoon and Ladle</a>
+                      <a class="nav-link title titleOver a" id="atag">Spoon and Ladle</a>
                   </li>
                   <li>
 
                     <!-- Scroll/Jump to a how-to-video -->
-                    <a class="nav-link title jumpLink" href="#jump">How to video</a>
+                    <a class="nav-link title jumpLink" id="atag" href="#jump">How to video</a>
                   </li>
               </ul>
 
@@ -55,7 +55,7 @@
         <!--Name of the Recipe-->  
 <header>
 <div class="hdr">   
-      <h2 class="mainFont">Classic Spaghetti Bolognese</h2>  
+      <h1 class="mainFont">Classic Spaghetti Bolognese</h1>  
         <h3 id="quote">This is easily one of the quickest meal's to make.  
       With everyday ingredients and a little bit of italian flavour you'll have this meal done in a jiffy.</h3>  
 </div></header>
@@ -152,24 +152,27 @@
         <!-- Cooking steps End -->
 
         <!-- A video of the cooking process on Youtube (my own Video) -->
+        <div>
         <iframe class="video" id="jump" src="https://www.youtube.com/embed/AdosrptHYGk" frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p class="footy">If you enjoy cooking like we do but don't always know exactly how to make the meals 
+            then you are gonna love this site - We've got more recipes just like this one 
+            where we will show you everything you need from step one to DONE.  
+            You will never again feel left out with these amazing recipe's 
+            Be sure to check out our Facebook page and Youtube channel for more videos
+        </p><br><br><br>
 
         <!-- Footer starts here -->
         <footer>
-            <p>If you enjoy cooking like we do but don't always know exactly how to make the meals <br>
-                then you are gonna love this site - We've got more recipes just like this one <br>
-                where we will show you everything you need from step one to DONE.  <br>
-                You will never again feel left out with these amazing recipe's <br>
-                Be sure to check out our Facebook page and Youtube channel for more videos
-            </p>
-        
+
+            <!-- Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
             <!-- Contact info with icons -->
-            <section id="Contact">
-                <b><img src="images/phone.png">123 456 7890</b>
-                <b><img src="images/email.png">leonardusdirk@gmail.com</b>
-                <b><img src="images/adress.png">Cape Town</b>
-            </section></footer>  
+                <b><img src="images/phone.svg">123 456 7890</b>
+                <b><img src="images/email.svg">leonardusdirk@gmail.com</b>
+                <b><img src="images/adress.svg">Cape Town</b>
+            </footer>  
             <!-- Footer Ends -->
 
         </section><!--The Wrapper for the Website End-->
